@@ -1,0 +1,17 @@
+.page__header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $font-title;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-top: 30px;
+}
+
+.main__title {
+  font-size: 50px;
+}
+.subtitle {
+  font-size: 20px;
+}

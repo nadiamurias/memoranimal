@@ -1,0 +1,17 @@
+.page__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
