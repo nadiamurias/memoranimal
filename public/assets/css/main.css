@@ -22,21 +22,48 @@ body {
 .subtitle {
   font-size: 20px; }
 
-.page__main {
+.table {
   display: flex;
-  justify-content: center;
-  align-items: center; }
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 30px; }
 
 .card {
   width: 80px;
   height: 80px;
   padding: 5px;
   background-color: white;
-  margin-top: 50px;
   border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border: 5px solid bisque;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 5px; }
+
+.card__contentt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  padding-top: 0.4rem; }
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem; }
 
 .page__footer {
   position: fixed;

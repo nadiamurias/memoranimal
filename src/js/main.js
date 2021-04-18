@@ -1,14 +1,21 @@
 "use strict";
 
-console.log(">> Ready :)");
+let animalCards = ["🐹", "🐵", "🐷", "🐮", "🐶", "🦁", "🐱", "🐰"];
+let totalCards = animalCards.concat(animalCards);
 
-let animalCards = new Array();
-animalCards[0] = "/images/oveja.png";
-animalCards[1] = "/images/oveja.png";
-console.log(animalCards);
+function getCards() {
+  let table = document.querySelector(".table");
+  totalCards.forEach(function (element) {
+    let card = document.createElement("div");
 
-const vaca = document.querySelector(".card");
+    card.innerHTML =
+      "<div class='card'>" +
+      "<div class='card__content'>" +
+      element +
+      "</div>" +
+      "</div>";
 
-const animales = ["🐖", "🐑"];
-
-console.log(animales);
+    table.appendChild(card);
+  });
+}
+getCards();
