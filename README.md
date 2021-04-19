@@ -5,7 +5,7 @@ Con mucha ilusión estoy realizando una aplicación web donde he creado un juego
 
 Pues tendrás que seguir estos sencillos pasos: 
 
-1. Accede a la aplicación a través de este [enlace](https://nadiamurias.io.memoranimal)
+1. Accede a la aplicación a través de este [enlace](https://nadiamurias.github.io/memoranimal/)
 2. Comienza a jugar!
 
 
