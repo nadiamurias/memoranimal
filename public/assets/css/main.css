@@ -6,7 +6,7 @@
 body {
   background-image: url("../images/bosque.jpeg"); }
 
-.page__header {
+.header {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,11 @@ body {
   text-shadow: black 0.1em 0.1em 0.2em;
   margin-top: 30px; }
 
-.main__title {
-  font-size: 50px; }
+.title {
+  font-size: 35px; }
 
 .subtitle {
-  font-size: 20px; }
+  font-size: 18px; }
 
 .table {
   display: flex;
@@ -64,12 +64,12 @@ body {
 .card.discovered {
   transform: rotateY(-180deg); }
 
-.page__footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100vw;
   padding: 1rem;
-  color: #999; }
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

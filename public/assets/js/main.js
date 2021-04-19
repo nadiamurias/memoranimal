@@ -29,7 +29,23 @@ function getCards() {
 }
 
 function discover() {
-  this.classList.add("discovered");
+  let discover;
+  let totalDiscover = document.querySelectorAll(".discovered");
+  if (totalDiscover.length > 1) {
+    return;
+  } else {
+    this.classList.add("discovered");
+  }
+
+  discover = document.querySelectorAll(".discovered");
+  if (discover.length < 2) {
+    return;
+  }
+  if (discover[0].textContent === discover[1].textContent) {
+    return console.log("acierto");
+  } else {
+    return console.log("error");
+  }
 }
 
 getCards();
